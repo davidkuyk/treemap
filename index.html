@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tree Map</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="title">Movie Sales</h1>
+<p id="description">Top 95 Movies Sorted by Revenue</p>
+<div id="tooltip"></div>
+<svg id="canvas"></svg>
+<svg id="legend">
+  <text x="120" y="20" id="legendlegend">Genres</text>
+  <g>
+    <rect x="10" y="40" width="20" height="20" class="legend-item" fill="#ee4035"></rect>
+    <text x="35" y="55" width="40" height="40" class="legendtext">Action</text>
+    <rect x="10" y="70" width="20" height="20" class="legend-item" fill="#f37736"></rect>
+    <text x="35" y="85" width="40" height="40" class="legendtext">Drama</text>
+    <rect x="10" y="100" width="20" height="20" class="legend-item" fill="#fdf498"></rect>
+    <text x="35" y="115" width="40" height="40" class="legendtext">Adventure</text>
+  </g>
+  <g>
+    <rect x="180" y="40" width="20" height="20" class="legend-item" fill="#7bc043"></rect>
+    <text x="205" y="55" width="40" height="40" class="legendtext">Family</text>
+    <rect x="180" y="70" width="20" height="20" class="legend-item" fill="#0392cf"></rect>
+    <text x="205" y="85" width="40" height="40" class="legendtext">Animation</text>
+    <rect x="180" y="100" width="20" height="20" class="legend-item" fill="#851e3e"></rect>
+    <text x="205" y="115" width="40" height="40" class="legendtext">Comedy</text>
+    <rect x="180" y="130" width="20" height="20" class="legend-item" fill="#f6abb6"></rect>
+    <text x="205" y="145" width="40" height="40" class="legendtext">Biography</text>
+  </g>
+  
+</svg>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/6.3.1/d3.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

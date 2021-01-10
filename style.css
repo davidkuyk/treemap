@@ -1,0 +1,50 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: Helvetica, sans-serif;
+  background-color: #A9C7D3;
+}
+
+svg {
+  background-color: #A9C7D3;
+}
+
+h1 {
+  margin-bottom: 0px;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+#legend {
+  background: #A9C7D3;
+  color: #c8f7c5;
+  padding: 10px;
+}
+
+#tooltip {
+  visibility: hidden;
+  color: black;
+}
+
+.tile {
+   stroke: grey;
+}
+
+.tile:hover {
+  fill: white;
+}
+
+.titletext {
+  font-weight: bold;
+  overflow: scroll;
+}
